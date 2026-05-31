@@ -276,9 +276,10 @@ This project demonstrates:
 
 ---
 
-# 👨‍💻 Author
+# AWS Link
+http://3.110.182.133:8000/
 
-Darrsheni Sapovadia
+
 
 ---
 
