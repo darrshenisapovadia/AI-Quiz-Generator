@@ -1,4 +1,4 @@
-# 🎯 AI Quiz Generator
+# AI Quiz Generator
 
 An AI-powered quiz generation web application that dynamically creates multiple-choice questions using Google's Gemini 2.5 Flash model through OpenRouter API.
 
@@ -6,7 +6,7 @@ Users can enter a topic, generate quizzes instantly, answer questions, earn poin
 
 ---
 
-# 🚀 Features
+# Features
 
 * User Registration
 * AI-Generated Quiz Questions
@@ -21,7 +21,7 @@ Users can enter a topic, generate quizzes instantly, answer questions, earn poin
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 ## Backend
 
@@ -51,7 +51,7 @@ Users can enter a topic, generate quizzes instantly, answer questions, earn poin
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```bash
 .
@@ -84,7 +84,7 @@ Leaderboard & User Scores
 
 ---
 
-# 🗄 Database Design
+# Database Design
 
 ## Users Table
 
@@ -116,7 +116,7 @@ Stores AI-generated quiz questions and answers.
 
 ---
 
-# 🔑 Environment Variables
+# Environment Variables
 
 Create a .env file:
 
@@ -128,7 +128,7 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 
 ---
 
-# 📦 Installation
+# Installation
 
 Clone Repository
 
@@ -166,7 +166,7 @@ pip install fastapi uvicorn sqlalchemy psycopg2-binary requests python-dotenv ji
 
 ---
 
-# ▶ Run Application
+#  Run Application
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
@@ -180,7 +180,7 @@ http://localhost:8000
 
 ---
 
-# 🔄 Application Workflow
+# Application Workflow
 
 1. User enters username.
 2. User selects quiz topic.
@@ -194,7 +194,7 @@ http://localhost:8000
 
 ---
 
-# 🌐 AWS Deployment
+# AWS Deployment
 
 The application is deployed on AWS EC2.
 
@@ -215,7 +215,7 @@ http://EC2_PUBLIC_IP:8000
 
 ---
 
-# 📊 API Endpoints
+# API Endpoints
 
 | Endpoint     | Method | Description      |
 | ------------ | ------ | ---------------- |
@@ -228,7 +228,7 @@ http://EC2_PUBLIC_IP:8000
 
 ---
 
-# 🎮 Sample Topics
+# Sample Topics
 
 * Artificial Intelligence
 * Machine Learning
@@ -243,7 +243,7 @@ http://EC2_PUBLIC_IP:8000
 
 ---
 
-# 📚 Learning Outcomes
+# Learning Outcomes
 
 This project demonstrates:
 
@@ -260,7 +260,7 @@ This project demonstrates:
 
 ---
 
-# 🔮 Future Enhancements
+# Future Enhancements
 
 * User Authentication
 * Session Management
